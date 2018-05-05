@@ -14,4 +14,4 @@ class primeNumbers {
     std::vector<int> findPrimeNums(int min, int max);
 };
 
-#endif // MODULES_PRIME_NUMBERS_INCLUDE_PRIMENUMBERS_H_
+#endif  // MODULES_PRIME_NUMBERS_INCLUDE_PRIMENUMBERS_H_
