@@ -1,6 +1,7 @@
 // Copyright 2018 Tipanov Daniil
 
 #include <gtest/gtest.h>
+#include <vector>
 #include "include/PrimeNumbers.h"
 
 TEST(primeNumbers, error_if_min_is_less_than_zero) {
