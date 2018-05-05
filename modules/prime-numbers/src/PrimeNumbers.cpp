@@ -1,5 +1,6 @@
 // Copyright 2018 Tipanov Daniil
 
+#include <vector>
 #include "include/PrimeNumbers.h"
 
 primeNumbers::primeNumbers() { }
