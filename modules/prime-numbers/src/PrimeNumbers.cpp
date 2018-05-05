@@ -18,7 +18,7 @@ std::vector<int> primeNumbers::findPrimeNums(int min, int max) {
         tmp++;
     }
     for (int i = 0; i < size; i++) {
-        for (int j = 2; j <= sqrt((static_cast<double>)arr[i]); j++)
+        for (int j = 2; j <= sqrt(static_cast<double>(arr[i])); j++)
             if (arr[i] % j == 0 && arr[i] != j && arr[i] != 1) {
                 arr[i] = 0;  // 0 - not a prime number
                 break;
