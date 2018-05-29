@@ -7,11 +7,14 @@
 #include <cmath>
 #include <vector>
 
-class primeNumbers {
+class PrimeNumbers {
  public:
-    primeNumbers();
-    ~primeNumbers();
-    std::vector<int> findPrimeNums(int min, int max);
+     explicit PrimeNumbers(int _min = 0, int _max = 0);
+     ~PrimeNumbers();
+     std::vector<int> FindPrimeNums();
+ private:
+     int min, max, size;
+     std::vector<int> arr;
 };
 
 #endif  // MODULES_PRIME_NUMBERS_INCLUDE_PRIMENUMBERS_H_
